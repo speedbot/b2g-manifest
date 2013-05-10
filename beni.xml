@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <manifest>
   <remote fetch="git://github.com/mozilla-b2g/" name="b2g"/>
+  <remote fetch="git://github.com/speedbot/" name="jellybean"/>
+  <remote fetch="git://github.com/jellaxy/" name="jellybean"/>
   <remote fetch="git://github.com/gp-b2g/" name="gp-b2g"/>
   <remote fetch="http://git.mozilla.org/" name="mozillaorg"/>
   <remote fetch="git://codeaurora.org/" name="caf"/>
@@ -98,13 +100,5 @@
   <project name="device/qcom/common" path="device/qcom/common"/>
 
   <!-- Peak specific things -->
-  <project path="device/qcom/msm7627a" name="device_qcom_msm7627a" remote="gp-b2g" revision="master" />
-  <project path="device/geeksphone/peak" name="device-gp-peak" remote="gp-b2g" revision="master" />
-  <project path="kernel" name="gp-peak-kernel" remote="gp-b2g" revision="master" />
-  <project path="external/compat-wireless" name="external_compat-wireless" remote="gp-b2g" revision="master" />
-  <project path="frameworks/base" name="frameworks_base" remote="gp-b2g" revision="master" />
-  <project path="hardware/ril" name="hardware_ril" remote="gp-b2g" revision="peak" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="gp-b2g" revision="master" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="gp-b2g" revision="master" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="gp-b2g" revision="master" />
+  
 </manifest>
